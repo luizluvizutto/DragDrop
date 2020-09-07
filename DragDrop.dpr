@@ -2,7 +2,8 @@ program DragDrop;
 
 uses
   Vcl.Forms,
-  Un_Principal in 'Un_Principal.pas' {Form1};
+  Un_Principal in 'Un_Principal.pas' {Form1},
+  Un_Cartao in 'Un_Cartao.pas';
 
 {$R *.res}
 

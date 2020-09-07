@@ -36,9 +36,6 @@ object Form1: TForm1
       TabOrder = 0
       OnEndDrag = Panel3EndDrag
       OnMouseDown = Panel3MouseDown
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 479
     end
     object Panel4: TPanel
       AlignWithMargins = True
@@ -57,9 +54,6 @@ object Form1: TForm1
       TabOrder = 1
       OnEndDrag = Panel3EndDrag
       OnMouseDown = Panel3MouseDown
-      ExplicitLeft = 5
-      ExplicitTop = 0
-      ExplicitWidth = 471
     end
   end
   object Panel2: TPanel

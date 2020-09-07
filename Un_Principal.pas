@@ -61,7 +61,9 @@ end;
 procedure TForm1.Panel3MouseDown(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
 begin
-        TWinControl( Sender ).BeginDrag(False);
+   if Button = mbLeft then begin
+      TWinControl( Sender ).BeginDrag(False);
+   end;
 end;
 
 end.
