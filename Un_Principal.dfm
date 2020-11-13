@@ -54,6 +54,8 @@ object Form1: TForm1
       TabOrder = 1
       OnEndDrag = Panel3EndDrag
       OnMouseDown = Panel3MouseDown
+      ExplicitLeft = -12
+      ExplicitTop = 20
     end
   end
   object Panel2: TPanel
